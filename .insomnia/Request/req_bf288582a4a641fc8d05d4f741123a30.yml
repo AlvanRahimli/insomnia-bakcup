@@ -1,0 +1,21 @@
+_id: req_bf288582a4a641fc8d05d4f741123a30
+type: Request
+parentId: fld_3394f3aae9c643d9ba0939e503223379
+modified: 1614029423214
+created: 1611694308209
+url: https://api.edway.org/guest/api/paths?offset=0&limit=10
+name: guest test
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1611694308209
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_7c540d116a7f4885bfedb7ce16db84de
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1611043947297
+created: 1611043939321
+url: http://localhost:3000/uber
+name: uber test
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1611043939321
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

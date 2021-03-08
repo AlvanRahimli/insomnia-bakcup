@@ -1,0 +1,29 @@
+_id: req_f3e74e5427d24f5595d6056cf87be53d
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1611921609566
+created: 1611921538520
+url: https://localhost:5001/api/identity/resend-email-token
+name: resend
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": "25daf2d5-0387-4a22-92b6-dab485522d28"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2f7e114bb35b4c5ba0d0275964d59e2b
+authentication: {}
+metaSortKey: -1611921538521
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

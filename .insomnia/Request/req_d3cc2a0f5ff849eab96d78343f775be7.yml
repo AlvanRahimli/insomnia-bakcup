@@ -1,0 +1,37 @@
+_id: req_d3cc2a0f5ff849eab96d78343f775be7
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1611255168555
+created: 1610715088952
+url: http://localhost:5006/api/uber/orders/
+name: add order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+        "event_type": "orders.notification",
+        "event_id": "c4d2261e-2779-4eb6-beb0-cb41235c751e",
+        "event_time": 1427343990,
+        "meta": {
+            "resource_id": "153dd7f1-339d-4619-940c-418943c14636",
+            "status": "pos",
+            "user_id": "89dd9741-66b5-4bb4-b216-a813f3b21b4f"
+        },
+        "resource_href": "https://api.uber.com/v2/eats/order/153dd7f1-339d-4619-940c-418943c14636",
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a8638038b0d348558393d42691ff789d
+authentication: {}
+metaSortKey: -1610715088952
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

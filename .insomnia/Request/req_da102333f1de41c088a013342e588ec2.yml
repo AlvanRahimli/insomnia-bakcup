@@ -1,0 +1,45 @@
+_id: req_da102333f1de41c088a013342e588ec2
+type: Request
+parentId: fld_b31ee83a8e6344aab0ecad1d81756765
+modified: 1610536667924
+created: 1610536008827
+url: http://localhost:6900/connect/token
+name: get token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: client_id
+      value: com.fonibo.shop
+      id: pair_e53be5996fb945999d5e72181e0c0897
+    - name: client_secret
+      value: r4D5PHBVfepOKnRicMx
+      description: ""
+      id: pair_b36ccf2ed5f342389f561bb25f01a742
+    - name: grant_type
+      value: password
+      description: ""
+      id: pair_abda407d036e4d309cb86b1283cb39db
+    - name: username
+      value: AlvanRahimliLlDTv
+      description: ""
+      id: pair_7b7c4472763b44868ff0a47457c88a1a
+    - name: password
+      value: 01122001alvan
+      description: ""
+      id: pair_de078049b7774bf084bbcb9dadbb8c57
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_c3495df045cb4df7be9e3920bc2307da
+authentication: {}
+metaSortKey: -1610536008827
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_81733794d3a247bc963106673dc50a7d
+type: Request
+parentId: fld_3394f3aae9c643d9ba0939e503223379
+modified: 1613484293698
+created: 1610205600062
+url: https://api.edway.org/supervisor/api/paths/add
+name: add path
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"name": "ilkdir axi beli beli", "description": "aha bu ilkdir test
+    edirem", "difficulty": 0, "accessibility": "Public"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b7926e41eb38465884cbc147c798755e
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IkE0RDgxQTZFODNGNDc1RThBRjQ0NzkxMjlENzg4QjRCIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTM0ODQwMDksImV4cCI6MTYxMzQ4NzYwOSwiaXNzIjoiaHR0cDovL2lkLmVkd2F5Lm9yZyIsImNsaWVudF9pZCI6Im9yZy5lZHdheS53ZWJjbGllbnQiLCJzdWIiOiI1ZDk0Mjc3Ny1mYzM4LTQ0ZDUtOTRmMi0zYzFhNmJiNzE5ZjgiLCJhdXRoX3RpbWUiOjE2MTM0ODQwMDksImlkcCI6ImxvY2FsIiwianRpIjoiMjdDNDRGNDQ3MUFCM0FDOEQyNDdENjBFMjAzMjkzRDEiLCJpYXQiOjE2MTM0ODQwMDksInNjb3BlIjpbImVtYWlsIiwib3BlbmlkIiwicGhvbmUiLCJwcm9maWxlIiwicm9sZXMiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.SnE93G041vkZ6E1Fztpu5TJU3PE8sqeuvB3UxJPPZQc-uGTswAaHYw9r13ZsRpDeR5aiZhw2aVfCrXVo0Q1N3rX_LXDUxm6ZY1icuDcofrl4lDFFIxSbjXttcqUe8ytUVF4RZvqEfUCrYcF2gPebAkb-FnogG9bvxt74EnZoopZecdlPl-Hk6hamwrkP7vQyRl_LZlOwosHXZV1iyhzpHILa5oG5tU_ElsHf9h64ka8SDLe4tZHOJY4IXaCg6Nt_sebyjBJypTsBIkRZWKsw2NkK-7YyI95A4-pUeAq34CIImGdyCK3n71JO_89hQ414KhvQcVYkvLw0_aE5tWBBvQ
+metaSortKey: -1610214911557
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

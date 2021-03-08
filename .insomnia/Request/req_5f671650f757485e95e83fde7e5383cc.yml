@@ -1,0 +1,34 @@
+_id: req_5f671650f757485e95e83fde7e5383cc
+type: Request
+parentId: fld_a8fe1f1a73994a199db48fbefae22043
+modified: 1613911574359
+created: 1613911210570
+url: http://localhost:5000/account/update
+name: update user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "08d8d647-95ce-43cd-8eec-1bcc1e59fa5A",
+    	"fullName": "Alvan Rahimli",
+    	"phoneNumber": "+9947000543",
+    	"email": "alvanrahimli@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e322749a30bf4026813855dae4d63142
+authentication:
+  type: bearer
+  token: CEP1Q9YD3TATNXUM
+metaSortKey: -1613911210570
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

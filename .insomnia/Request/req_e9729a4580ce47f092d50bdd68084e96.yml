@@ -1,0 +1,32 @@
+_id: req_e9729a4580ce47f092d50bdd68084e96
+type: Request
+parentId: fld_a8fe1f1a73994a199db48fbefae22043
+modified: 1614455363369
+created: 1614083655112
+url: http://localhost:5000/api/account/otp
+name: get info
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phoneNumber": "+994517000543"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_64a07fb064d445e88d5d7a36cbd8b0d7
+authentication:
+  type: bearer
+  token: GUGDKR4CLDJD8F5T
+  disabled: true
+metaSortKey: -1614083655112
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

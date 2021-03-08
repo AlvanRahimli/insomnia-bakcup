@@ -1,0 +1,36 @@
+_id: req_310e10379b684d31977942be835c68e6
+type: Request
+parentId: fld_3394f3aae9c643d9ba0939e503223379
+modified: 1610216549030
+created: 1610215230774
+url: http://localhost:5000/api/sources/add?lessonId=08d8b4c8-41dd-423a-8f1e-7de3e902dbe1
+name: add source
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "w3 schoolsdan",
+    	"url": "https://www.example.com",
+    	"language": "az",
+    	"sourceFormat": 0,
+    	"price": 0,
+    	"irderInLesson": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5999d954c23c43ad8fccd768bcf1015c
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjI3NUFCRjU2MjMyNkNBNTcwMjczNUMxMDA4OUREMjhCIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTAyMTQ4NjYsImV4cCI6MTYxMDIxODQ2NiwiaXNzIjoiaHR0cDovLzEzNC4yMDkuMjI2LjExMiIsImNsaWVudF9pZCI6ImNvbS5wYXRoZWQud2ViY2xpZW50Iiwic3ViIjoiNWQ5NDI3NzctZmMzOC00NGQ1LTk0ZjItM2MxYTZiYjcxOWY4IiwiYXV0aF90aW1lIjoxNjEwMjE0ODY2LCJpZHAiOiJsb2NhbCIsInJvbGUiOlsiQWRtaW4iLCJTdXBlcnZpc29yIl0sImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiNWQ5NDI3NzctZmMzOC00NGQ1LTk0ZjItM2MxYTZiYjcxOWY4IiwianRpIjoiNzE4MjY5QzRBMEUzOTdFOEU5NEVEQzNCMDE3RUIwNkMiLCJpYXQiOjE2MTAyMTQ4NjYsInNjb3BlIjpbImVtYWlsIiwib3BlbmlkIiwicHJvZmlsZSIsInJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.V625YeOpNSlk00oSga3YaFrXlcn2OBeHvj21VcCvMak9L_2Rif2YPxknqnlToEOdhl6f_PB9X2iAQx9fXvGJMS0yDU1XaTfX3832hoKPR4u7swmkedFHAf2T_WybzEGmzdM_-2GEVUvpOBRv81JxVGTSFMEkHyTcGdJT4MHj-YJ4OJtUhRvSkwGXahWh1ObkILo3CDbs4mezGav0wFKFtTtdBOFUhTTv-TU2LQgxAJ9fQQD04l4tRBLRdvzUfZh-MMHSqFKxEHjoUS4fzdJjO-H64HJuIn-k8NA1EPDdbg-q962VU3FzJMN7AhZD-WYSaQ6huQCAyDyEzmFr8p3kZA
+metaSortKey: -1610215230774
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

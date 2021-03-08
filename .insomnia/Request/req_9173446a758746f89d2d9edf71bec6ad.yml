@@ -1,0 +1,32 @@
+_id: req_9173446a758746f89d2d9edf71bec6ad
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1612424361996
+created: 1611921637578
+url: http://id.posbox.app/api/account
+name: register user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "test4@gmail.com",
+    	"password": "test412345",
+    	"fullName": "Test 4",
+    	"phoneNumber": "0515004534"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b70de73810ed4167a80c8a0a2f7ed919
+authentication: {}
+metaSortKey: -1611921637578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_8d5de63e55434e2983c6a9240638bfe3
+type: Request
+parentId: fld_a8fe1f1a73994a199db48fbefae22043
+modified: 1614100566518
+created: 1613898903931
+url: https://curly.kekamaps.com/api/reports/
+name: get reports
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: XHAPRSBKC3U7TQBZ
+metaSortKey: -1613898903931
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

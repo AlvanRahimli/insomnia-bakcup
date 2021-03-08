@@ -1,0 +1,36 @@
+_id: req_c9f5d63a8dee439b9f16f4b767010563
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1613121319115
+created: 1611135247876
+url: https://api.posbox.app/hub/branches/e5d915d9-2c6b-4731-9c60-e7450a2a3f81/orders/
+name: get orders
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: status
+    value: active
+    id: pair_5faca6f1dd46437aae48aa2d1f1c4210
+  - name: type
+    value: DeliveryByRestaurant
+    id: pair_16111a30ffcb46c0a29d4e0a162c961d
+  - name: channelId
+    value: uber_eats
+    id: pair_9ce10460faa049e1899f31d2bde32422
+  - name: sort
+    value: OrderPlaceTime
+    id: pair_56edbcd8bd464751a194be35ab6af7c1
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjEyMDM0QkFBNjcxMzRGRkIyRkZBQTQzNDAzNzJDMTA0IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTMxMjEyOTksImV4cCI6MTYxMzEyNDg5OSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC5sb2NhbDo1MDAwIiwiY2xpZW50X2lkIjoiYXBwLnBvc2JveC5tYW5hZ2VyIiwic3ViIjoiMGQ0NDg5ZGUtMmQzNy00MTE3LWI1NTQtMjE5MjFjMGJhYWY0IiwiYXV0aF90aW1lIjoxNjEzMTIxMjk5LCJpZHAiOiJsb2NhbCIsImp0aSI6IkExMzkyMTkwRjZCRENDOEIwRTNCQUI2MUNCMjdDQUNFIiwiaWF0IjoxNjEzMTIxMjk5LCJzY29wZSI6WyJlbWFpbCIsIm9wZW5pZCIsInBob25lIiwicHJvZmlsZSIsInJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.dEdVCca2HEILEe-cEwE-RLOKGeFR7hOQb6yzkO1XvLmnn1FDc41iy25m605ocTe-NTPKO1SC_YbkD2-XZ11P9ePtLpVbaf1UoPiN9JdK5EOdhaRW9YSe3qZ1KjkOLvL9o0XTqsrPBKzPbaGBiC64C7DisBBrm_s-rnF4Eh-6znWf-BMoVT6jFt-7W0AWOLldjh7RFBvnegnu5q3Q9F7JCQvdn_XZsBBPrbVaY_FeLDI7f9eO1vFY5CYpnqeNFIVeOBUnqELJsBO6s3FPm87zLCZ4vK1VEYJKphrvGwBvTuYmXGjeYyYxElSm0YFb46Py05H0Hsuvi8SE6GUbQGvZyg
+  disabled: false
+metaSortKey: -1611135247876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

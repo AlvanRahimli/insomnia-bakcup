@@ -1,0 +1,21 @@
+_id: req_ca7fa2495bda414da77b61ebc216d69b
+type: Request
+parentId: fld_a8fe1f1a73994a199db48fbefae22043
+modified: 1614083737712
+created: 1614083707332
+url: https://curly.kekamaps.com/api/account/otp?phoneNumber=+994517000543
+name: get token second
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1614083707332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

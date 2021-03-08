@@ -1,0 +1,21 @@
+_id: req_e935a815221c42ca9d8bb820f708c7a8
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1613852236571
+created: 1613852234697
+url: https://api.edway.org/supervisor/api/sources/08d8d3d4-9412-43f2-8307-15744eb12fbe
+name: get source
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1613852234698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

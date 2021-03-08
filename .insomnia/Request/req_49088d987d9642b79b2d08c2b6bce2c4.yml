@@ -1,0 +1,34 @@
+_id: req_49088d987d9642b79b2d08c2b6bce2c4
+type: Request
+parentId: fld_3394f3aae9c643d9ba0939e503223379
+modified: 1611240893622
+created: 1610215053002
+url: http://pathed.gorgood.space/supervisor/api/lessons/add?moduleId=08d8be18-860d-4d46-8e84-ebbbcd6256a4
+name: add lesson
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"name": "lesson adi depends hmm nopes",
+    	"desctiption": "maraqli bug :D",
+    	"orderInModule": 3,
+    	"prerequisiteId": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_89a3eba98d554153bc05e45bfff93c43
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjU1QTMxOTk0QTZGRTQ4NEEyRUU1RDQ2RTE0NzVCQzhFIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTA0NTA1MzgsImV4cCI6MTYxMzA0MjUzOCwiaXNzIjoiaHR0cDovLzEzNC4yMDkuMjI2LjExMiIsImNsaWVudF9pZCI6ImNvbS5wYXRoZWQud2ViY2xpZW50Iiwic3ViIjoiNWQ5NDI3NzctZmMzOC00NGQ1LTk0ZjItM2MxYTZiYjcxOWY4IiwiYXV0aF90aW1lIjoxNjEwNDUwNTM4LCJpZHAiOiJsb2NhbCIsInJvbGUiOlsiQWRtaW4iLCJTdXBlcnZpc29yIl0sImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiNWQ5NDI3NzctZmMzOC00NGQ1LTk0ZjItM2MxYTZiYjcxOWY4IiwianRpIjoiNjI1RjFDQjVBMUUxRUE3QkEwNDg5N0NCQTUyODgzMkEiLCJpYXQiOjE2MTA0NTA1MzgsInNjb3BlIjpbImVtYWlsIiwib3BlbmlkIiwicHJvZmlsZSIsInJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.D3Yx58P5DsVE-b4TfgSoJqjjRGGeoHzDfNuWY2rWFcNUuvt8zL82u5vgzYl6w3Y2P3PEbXbDXEyUGsejSqk1CJtQ4HmOEk65-YwNLLneUS_qcds8xKKd44JLzJAKU2NqI9hmF-xHJuhupv_Ak2jAhiZi4ofyFVr3SIB-sOdKIg36AXx_BG2aQ70i0z6oZcnv_sMh3uQa3lx3JGIhmGWhYIPTZXQjgFg3xNQtqb8o-77PtBsKZ82UnkF-J5nxCZ7QBI4ej5ReIJVWG1RbvE26Ci1Dle3quydJLlNec2F1zVVQgi4PSEXFAJeBVPe0fZkhvmVwtzJ8iPcHsC7dNXTWMQ
+metaSortKey: -1610215053002
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

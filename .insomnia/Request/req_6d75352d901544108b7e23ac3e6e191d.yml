@@ -1,0 +1,34 @@
+_id: req_6d75352d901544108b7e23ac3e6e191d
+type: Request
+parentId: fld_3394f3aae9c643d9ba0939e503223379
+modified: 1613596496982
+created: 1610214928777
+url: https://api.edway.org/supervisor/api/modules/add?pathId=08d8d283-e15a-4392-8aef-4ce023abd29c
+name: add module
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "module for path ilkidr axi",
+    	"desctiption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae pharetra dolor. Suspendisse commodo viverra placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sit amet sapien sit amet ipsum congue molestie. Nunc luctus, lorem sit amet maximus congue.",
+    	"severity": "mandatory",
+    	"orderInPath": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2fe7733ef19e4fe2bf83973bb9f2e157
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjYxMzJCREZGQjVEQjlBQTA4Q0NERDUyRDA4NDVEMUM5IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTM1OTY0ODQsImV4cCI6MTYxMzYwMDA4NCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiY2xpZW50X2lkIjoib3JnLmVkd2F5LndlYmNsaWVudCIsInN1YiI6IjVkOTQyNzc3LWZjMzgtNDRkNS05NGYyLTNjMWE2YmI3MTlmOCIsImF1dGhfdGltZSI6MTYxMzU5NjQ4MywiaWRwIjoibG9jYWwiLCJqdGkiOiI0NjhBNDIwRUE3Q0IwNkMwMUY0RDRBQjkwNEUxNTcyNSIsImlhdCI6MTYxMzU5NjQ4NCwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJwaG9uZSIsInByb2ZpbGUiLCJyb2xlcyIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.UkWpvUbFu9WSyLF9uP-YQsqtRyIeGJjbdg9nSqca9BcmT_lGgwjhxVU5Fki5_c1cnF77GNmSA883b71uiWOjsgb4uq_H2mqHRIo9ypOPmbFLZT0TzL3tSRI-ynqJ6qTWwOO2OBfMZUYeY-Om8gDBSyPe5ye_FHLRTcNC3h4DF1REngzrTxGbfqM-t7-Yg59POL2NwVVtF0gt93-WP2En0Om4rqghgwM6C8KWZZxrXrXHvw0UntFcDPJC33i0xPpR_kXFn9DBcKJrI0p8KFtUO7dMaMidLM1Zoir_htG5zdA8lKe1GAQtsuU7XxbTZKyILhdyR4zh0VLD7dWz8S_CwA
+metaSortKey: -1610214928777
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

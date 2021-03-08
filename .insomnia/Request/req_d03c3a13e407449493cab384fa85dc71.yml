@@ -1,0 +1,23 @@
+_id: req_d03c3a13e407449493cab384fa85dc71
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1612776987485
+created: 1612424757219
+url: https://id.posbox.app/api/account/find?login=testuser1@gmail.com
+name: find user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: 9D54DF7A90AF4EAC60429A0578FAC2F39EAEC89B136A98BFA3FE6674387CCCDF
+metaSortKey: -1612424757219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

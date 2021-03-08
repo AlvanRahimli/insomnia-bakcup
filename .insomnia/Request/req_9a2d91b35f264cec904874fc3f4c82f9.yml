@@ -1,0 +1,30 @@
+_id: req_9a2d91b35f264cec904874fc3f4c82f9
+type: Request
+parentId: fld_a8fe1f1a73994a199db48fbefae22043
+modified: 1613940705010
+created: 1613822001955
+url: http://localhost:5000/account/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"fullName": "Alvan Rahimli",
+    	"phoneNumber": "+994517000543"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cdcfe2247ca24426bc46975955458b83
+authentication: {}
+metaSortKey: -1613822001956
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

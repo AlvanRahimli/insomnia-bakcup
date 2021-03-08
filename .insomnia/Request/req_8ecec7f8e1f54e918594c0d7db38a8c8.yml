@@ -1,0 +1,32 @@
+_id: req_8ecec7f8e1f54e918594c0d7db38a8c8
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1611925388189
+created: 1611914123736
+url: http://localhost:5000/api/identity/password
+name: change pass
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "alvan123456",
+    	"newPassword": "12345alvan"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f50176c2da464557ba51f5ca832795c5
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjRDMzQ2RDgzNEMzQzAwMjREODc0MzZBQTNCREM3QUIzIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTE5MjUzNzksImV4cCI6MTYxMTkyODk3OSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwL3Jlc291cmNlcyIsImNsaWVudF9pZCI6ImNvbS5wb3Nib3gubW9iaWxlIiwic3ViIjoiMjVkYWYyZDUtMDM4Ny00YTIyLTkyYjYtZGFiNDg1NTIyZDI4IiwiYXV0aF90aW1lIjoxNjExOTI1Mzc5LCJpZHAiOiJsb2NhbCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMjVkYWYyZDUtMDM4Ny00YTIyLTkyYjYtZGFiNDg1NTIyZDI4IiwianRpIjoiNTE1QjA0NkU1NjAzMzg1MzQ4ODMxMjdDQkI5RTFFRDEiLCJpYXQiOjE2MTE5MjUzNzksInNjb3BlIjpbIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.Ni2tyds48d0f2OWBAiwZRIUAJBSF366WN15sAAFn9lcNCAFcwHSQwUtBQKksx2bs7M7mme5MtTDf9S78JmVc_464K8kCMwcF_zoh0xZUiK8GGyyzh80co8z70Ws3ENbM6OjwPM4VMnKQ4yAr_CUkp6H-Qr7O9IYWsCfVF4GODpK7S8LxRIqDnvCzbe-gGuJOP_YdU4eBmNC9Ei4pcaCqusDa2R-kdYf1Y2RT99ccbWlQYBAuNswH-TV-K6fN7bRZnHdTAMTBRzhDjA9fl5jXR6Ep1-79X9X2IRiZa0W84ZLtTLwgeEzDvgKs71oVfbBWax6v3ZXUl3g2mIbH7Swg6w
+metaSortKey: -1611914123737
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_36029427ef9f4e819c8a1db2f30c000a
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1611911366321
+created: 1611911334574
+url: https://localhost:5001/api/identity/find?email=test2@gmail.com
+name: get username
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1611911334574
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

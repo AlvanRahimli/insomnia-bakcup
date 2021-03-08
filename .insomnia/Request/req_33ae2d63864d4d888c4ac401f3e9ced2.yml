@@ -1,0 +1,29 @@
+_id: req_33ae2d63864d4d888c4ac401f3e9ced2
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1613413386692
+created: 1612948052774
+url: https://id.edway.org/.well-known/openid-configuration
+name: introspection
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_43c5b91cee48444abf52713041f43fda
+authentication:
+  type: bearer
+  token: xF5OnxZPcXr5rXECKh2ph+yUYH/1U14BHBxwtaAxBeo=
+  disabled: true
+metaSortKey: -1612948052774
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

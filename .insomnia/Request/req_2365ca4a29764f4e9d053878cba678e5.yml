@@ -1,0 +1,35 @@
+_id: req_2365ca4a29764f4e9d053878cba678e5
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1614680751305
+created: 1614679332403
+url: http://localhost:5004/stores/58c9a88a-7978-4d14-bc18-142995bc15ee/units/61
+name: update unit
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"id": 61,
+    	"abbreviation": "Gr",
+    	"name": "Gram",
+    	"precision": 3,
+    	"predefinedUnitId": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ea4d476a4ca94ef389254e48d87ef586
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjEyMDM0QkFBNjcxMzRGRkIyRkZBQTQzNDAzNzJDMTA0IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTQ2ODA3MTQsImV4cCI6MTYxNDY4NDMxNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC5sb2NhbDo1MDAwIiwiY2xpZW50X2lkIjoiYXBwLnBvc2JveC5tYW5hZ2VyIiwic3ViIjoiMzEyMTMwYWYtOWM4NS00N2NlLWFiNGEtZThiNWIxNjc0MDNiIiwiYXV0aF90aW1lIjoxNjE0NjgwNzEzLCJpZHAiOiJsb2NhbCIsImp0aSI6IkVGRkNCRUE2NjQwRURGNkNENDAzN0Q2RThBMTc0QkYwIiwiaWF0IjoxNjE0NjgwNzE0LCJzY29wZSI6WyJlbWFpbCIsIm9wZW5pZCIsInBob25lIiwicHJvZmlsZSIsInJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.oV-mPgOswoEfpxBXKf5DGLUMz6VPlYlFW1D-MPMe6KLGbK4t0WLcid7aNAYav8tL6dCH7iyRCJoLpyFrQ_PtkK4bcZkv60FSBM0zlnZJvdhHWPhhz7CW119lsBvNJewh7Md1W4HeTFru37hbJvfgbTeN2z7-vCqKpETtIFB8Mr2p-izOEhFTmIwStinq11JuSPUCEPUBCzmgr7rKA8CwtQCAEA816SoSCFvxYlTSiV2c6jpdRD2NZD0Z92XrhfpBxnjaF186RzEg7UAr4z0ixUuvQTCtHGbOXLFp2hvh0UoLpPExLm57Bmx9sTLywYtkVRnW1slGrQ1sUFpmQmb7Ag
+metaSortKey: -1614679332404
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,46 @@
+_id: req_33c5f6a5c7c44d458ac47380167dc6af
+type: Request
+parentId: fld_8da76e75da144a3fa5793e380d49bd24
+modified: 1613852282037
+created: 1610192554887
+url: http://id.edway.org/connect/token
+name: get token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: client_id
+      value: org.edway.webclient
+      description: ""
+      id: pair_7aeff48c71ee4bb2a7bdf4c578117133
+    - name: client_secret
+      value: r4D5PuJEYepOOjnYGRsdYsEgAB
+      description: ""
+      id: pair_283c1541371e499f8facba62b4f79fca
+    - name: grant_type
+      value: password
+      description: ""
+      id: pair_6d776034d5b145e391315dcdf22e7c63
+    - name: username
+      value: alvanrahimli
+      description: ""
+      id: pair_6ee4d0971bd4431eb7ee2bfc2ac9a9a4
+    - name: password
+      value: 01122001_Alvan
+      description: ""
+      id: pair_17d6822fefcf4a188638992caa909fc0
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_bc77ede0af8d4ee18cc559e1d1d65717
+authentication: {}
+metaSortKey: -1610192554887
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

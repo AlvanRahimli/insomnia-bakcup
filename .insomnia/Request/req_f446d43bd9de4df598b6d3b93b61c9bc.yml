@@ -1,0 +1,21 @@
+_id: req_f446d43bd9de4df598b6d3b93b61c9bc
+type: Request
+parentId: fld_42702b4d3b6644a29c56881503d260cc
+modified: 1610974796485
+created: 1610909129965
+url: https://api.uber.com/v2/eats/order/f9f363d1-e1c2-4595-b477-c649845bc953
+name: "scratch "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1610909129966
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

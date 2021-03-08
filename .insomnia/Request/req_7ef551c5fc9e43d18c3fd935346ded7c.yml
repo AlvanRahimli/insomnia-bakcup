@@ -1,0 +1,26 @@
+_id: req_7ef551c5fc9e43d18c3fd935346ded7c
+type: Request
+parentId: fld_b31ee83a8e6344aab0ecad1d81756765
+modified: 1610536359803
+created: 1610536350869
+url: http://localhost:6900/
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_91464367aff244d69ae399cbff48bc6b
+authentication: {}
+metaSortKey: -1610536350869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

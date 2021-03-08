@@ -1,0 +1,50 @@
+_id: req_afa57c4f183041a59996bd37fb6c96b7
+type: Request
+parentId: fld_a8fe1f1a73994a199db48fbefae22043
+modified: 1614195996527
+created: 1613894679674
+url: http://curly.kekamaps.com/api/reports/
+name: add report
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: location
+      value: 48,41
+      description: ""
+      id: pair_1f3958ca95454d6593ea65d5b39812ec
+    - name: address
+      value: Cefer Cabbarli  MS
+      description: ""
+      id: pair_5b991055f9214142b683c4053e8ceedf
+    - name: Answers[0].QuestionId
+      value: 19ab11af-2a89-4cfa-ba2a-d87c80aa01f5
+      description: ""
+      id: pair_a5d5dc32f6b149b5af922e52f322641f
+    - name: Answers[0].Answer
+      value: "false"
+      description: ""
+      id: pair_03163fd5d9ed4c17b962a2af74323c3e
+    - name: Attachments
+      value: ""
+      description: ""
+      id: pair_2a2c272829164c7fa8f0e6d3c1f8fb8e
+      type: file
+      fileName: /home/alvan/Videos/communism.gif
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_563a481254a246478a15ac162c99ce41
+authentication:
+  type: bearer
+  token: Z4TCEE4ZM214VF5J
+metaSortKey: -1613894679674
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
