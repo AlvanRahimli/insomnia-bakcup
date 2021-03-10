@@ -1,0 +1,42 @@
+_id: req_26ee569c50994dd88afe8bb6f475b118
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1615373534848
+created: 1615373483946
+url: http://localhost:5002/signin-oidc
+name: signin-oidc
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: id_token
+      value: eyJhbGciOiJSUzI1NiIsImtpZCI6IjNEQzU0MUE4RDIwMUFENzZCRDMwMTYxRjg1NUMzMzE1REU5Qzk3NUQiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJQY1ZCcU5JQnJYYTlNQllmaFZ3ekZkNmNsMTAifQ.eyJuYmYiOjE2MTUzNzMwMzYsImV4cCI6MTYxNTM3MzMzNiwiaXNzIjoiaHR0cHM6Ly9pZC5mb25pYm8uY29tIiwiYXVkIjoiY29tLmZvbmliby1hcHBzLnBvc2JveC04MzQ3MjgzODY2MiIsIm5vbmNlIjoiNjM3NTA5Njk4MzU3MzMwMzAzLllqUmtObVF4TkRVdE1EQXlNUzAwTURrMkxUZzJNRFl0TmprMVptRXhOVFZsTnprNFpXVXdPV1psTXpjdE16a3dNeTAwTlRBMkxXRTJNell0TURNeU5EZzVaalpsTXpJMSIsImlhdCI6MTYxNTM3MzAzNiwic19oYXNoIjoibUNZN2lBREY3VFZXV0FHdmVKaW5oZyIsInNpZCI6ImNCUHFDMGp3NWJEVUxrY2Q1dG5pTUEiLCJzdWIiOiI3NTFiNjJkMC0xNzA3LTQwNzUtYjgwYS1jZmNjNThmNzc1N2IiLCJhdXRoX3RpbWUiOjE2MTUzNzI2NjgsImlkcCI6ImxvY2FsIiwicGljdHVyZSI6Imh0dHBzOi8vY2RuLmZvbmliby5jb20vcHJvZmlsZXMvNzUxYjYyZDAtMTcwNy00MDc1LWI4MGEtY2ZjYzU4Zjc3NTdiXzE2MTE5OTY0NjI3MzQuanBlZyIsImdlbmRlciI6Ik1hbGUiLCJiaXJ0aGRhdGUiOiIyMDAxLTEyLTAyVDA4OjAwOjAwWiIsIm5hbWUiOiLGj2x2YW4gUsmZaGltbGkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsdmFuUmhpbWxpbXgyODUiLCJhbXIiOlsicHdkIl19.vpxxuFAeLzZ33Jy_NLKEOPtEKlIm7wxa7RuBd_GzCBAC3H7-EFnqqWz0OMsNgwvyrnpBRJ7PKCtReiwiGWKBFNAFjReyixq1DaetHSWQlw0asr8Sd9aO2ps1YcTykMZdiPM3TO8HAS_xxrs5VLkquIZ7edmFjtfwSVm51_tJd0AWocSEcmI446_RY5smXvrYLWa42ut3ZDsrstjZnwofGDDdG4lsAIpz1Z1OtRmbaValryKCfa4WkP8EVLwyNXHb7NZe6bwFPgg0N7_2iMxXkd7svvQfzfdlsI54zFJ_xuRIF-qTaMHdnJArsbWA5H9tKeEEJSC4tn7-cJnOOexxJuROQoydOgOk0LTcaGp1xLI8i3w3-ZurV6x6YYXnRkg9TgDe5prsxQQLf4isbTsWs2Bc9JNxMySzhSJlb-cbC9frUJ7MeZqb9AI192bSCtYuJAn5CetHRdbAadhWLVdZqBaNXHJsQBgEC_dhKPRm8bTTQhdR2Rwxw68tJrNGLrdmBTH3_fAR98keMxqD6M5dHgNNfg2cWKVA0Zv7u2YBx0OdCr-PKFNqg2q3ouG7x3uFUYbTVCYbstc2xUukJzmF9p78R-oNVYA_mscj1A-aYbzzyqAmcVL-DA_959zQxey6jq53_2O0iNs14eAjwJV4iLfQnQbv_Pb0-yrvQ4QbWTY
+      description: ""
+      id: pair_764e553808664a94803ff7b9303854a3
+    - name: scope
+      value: openid profile
+      description: ""
+      id: pair_0314e7429b614ca9aaf911ba562777d2
+    - name: state
+      value: CfDJ8CVlzcJ1fctAvOZmW2DRUCJvjZow7_RygK81leQaC-TbhKnNklg9PrQ6FInAjwvqS-Vy07oYIJUSJX5isVxvXh3GuzRzytfnPi763SQqOfv9NUEguhoU758oZSFjp1nu1qdbBUTL234qz3QAm5jllXM4T23gEunoQvskj7d4WKurMM10wcn7ilx40_PRKSJGpBtUQ7f62jHNzO7rntQhH0yLOfLTg8ZrqGLgDsO1JVS2XmtUH1T3PDbA3V7_ySkLnM59LfNkBk3od4P8mgQC_pEH9Om3VLw2iUNhyS94ZPmUzXpbM2-3DkSzmJihrWiJriAlpaGyLuZ3kkl7LTAqgZ2X94KrmswUBKhIna_G0aAdCMeuuIs5LjCsFwMLBKofvQ
+      description: ""
+      id: pair_d8e5e66071344da4936743c0175c61b7
+    - name: session_state
+      value: AOALufeAp7dNq2fsDZF_nMfjza8k4F58pqZyiMofg04.Jx1viuCR8RjjN7qzW6DH0g
+      description: ""
+      id: pair_ac3e288ba26a44b6bc93e3da2c3651d5
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_a9b178cdd5d34622b6a398e9580d1027
+authentication: {}
+metaSortKey: -1615373483946
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
