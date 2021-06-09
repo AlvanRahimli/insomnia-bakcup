@@ -1,9 +1,9 @@
 _id: req_da102333f1de41c088a013342e588ec2
 type: Request
 parentId: fld_b31ee83a8e6344aab0ecad1d81756765
-modified: 1610536667924
+modified: 1618914599995
 created: 1610536008827
-url: http://localhost:6900/connect/token
+url: https://id.fonibo.com/connect/token
 name: get token
 description: ""
 method: POST
@@ -21,14 +21,17 @@ body:
       value: password
       description: ""
       id: pair_abda407d036e4d309cb86b1283cb39db
+      disabled: false
     - name: username
-      value: AlvanRahimliLlDTv
+      value: lvanRhimlimx285
       description: ""
       id: pair_7b7c4472763b44868ff0a47457c88a1a
+      disabled: false
     - name: password
       value: 01122001alvan
       description: ""
       id: pair_de078049b7774bf084bbcb9dadbb8c57
+      disabled: false
 parameters: []
 headers:
   - name: Content-Type

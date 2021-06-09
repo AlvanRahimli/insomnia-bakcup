@@ -1,25 +1,26 @@
-_id: req_f446d43bd9de4df598b6d3b93b61c9bc
+_id: req_0a5cc1305f9740cd92ebc4320060607b
 type: Request
-parentId: fld_42702b4d3b6644a29c56881503d260cc
-modified: 1616431031814
-created: 1610909129965
-url: https://merchant-connect-v1.fonibo.com/stores/2/webhooks
-name: "scratch "
+parentId: wrk_f9c0ac1363ad4657877993a0cc62c16a
+modified: 1620505034764
+created: 1620504642302
+url: https://acreator.az/api/auth/login
+name: acreator-login
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"url": "https://api.posbox.app/"
+    	"email": "faridashrafov@acreator.az",
+    	"password": "farid12345"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_336bb95936cf4f5b916c18c8f1a520c5
+    id: pair_5581b49534544c47b7072f61c24db776
 authentication: {}
-metaSortKey: -1610909129966
+metaSortKey: -1620504642302
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

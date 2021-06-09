@@ -1,0 +1,41 @@
+_id: req_78cf2e4d16af4047bba4fc414d331f2b
+type: Request
+parentId: wrk_f9c0ac1363ad4657877993a0cc62c16a
+modified: 1619281453484
+created: 1619267939183
+url: https://maps.googleapis.com/maps/api/directions/json
+name: google-distance-api
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: units
+    value: metric
+    description: ""
+    id: pair_d9501590113b44b3a82d527bf64793ba
+  - name: origin
+    value: 40.33349300801218,49.74539266201636
+    description: ""
+    id: pair_c406dcfa389b4292af57e87fb2798208
+  - name: destination
+    value: 40.33060141479783,49.74844999429603
+    description: ""
+    id: pair_98e44f3362134ea39d0028282cea6d00
+  - name: waypoints
+    value: 40.3326197599203,49.74546093990846
+    description: ""
+    id: pair_e303db62749541d3a1b48afe570f1032
+  - name: key
+    value: AIzaSyBi_hyv_tHsgLqPLBqbVe0F46b8DB0zo7k
+    description: ""
+    id: pair_df01f808c3214ab2af061d0427ca3451
+headers: []
+authentication: {}
+metaSortKey: -1619267939183
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

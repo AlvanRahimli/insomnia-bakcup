@@ -1,0 +1,45 @@
+_id: req_820d462da3ac4939979b7356929100c0
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1615644236481
+created: 1615632174319
+url: https://api.posbox.app/inventory/branches/e5d915d9-2c6b-4731-9c60-e7450a2a3f81/modifiersets
+name: add modifier set
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": null,
+    	"name": "first modifier set",
+    	"modifiers": [
+    		{
+    			"id": null,
+    			"name": "1st modifier",
+    			"modifierSetId": null,
+    			"price": {
+    				"id": null,
+    				"currencyCode": "usd",
+    				"amount": 0.56,
+    				"formattedAmount": "0.56 usd"
+    			}
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c75e2946bfa34834a7e7e0b63aeea2b7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjNEQzU0MUE4RDIwMUFENzZCRDMwMTYxRjg1NUMzMzE1REU5Qzk3NURSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IlBjVkJxTklCclhhOU1CWWZoVnd6RmQ2Y2wxMCJ9.eyJuYmYiOjE2MTU2NDQyMjgsImV4cCI6MTYxNTY0NzgyOCwiaXNzIjoiaHR0cHM6Ly9pZC5wb3Nib3guYXBwIiwiY2xpZW50X2lkIjoiYXBwLnBvc2JveC5tYW5hZ2VyIiwic3ViIjoiZThkOWZiNTMtODdjZC00NGMwLTg0ZmUtNTNhYTMxMGQ0NWJhIiwiYXV0aF90aW1lIjoxNjE1NjQ0MjI3LCJpZHAiOiJsb2NhbCIsImp0aSI6IkRERTkxNzk3MEY5RDY1NTM3QzU2MDdCMDRGNEQ0QjZCIiwiaWF0IjoxNjE1NjQ0MjI4LCJzY29wZSI6WyJlbWFpbCIsIm9wZW5pZCIsInBob25lIiwicHJvZmlsZSIsInJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.0MvG9qHScuVIf8BVOOG_lHc-MwN94nwsyO6goPJSeXPeK2b3VFmDghrq89pnYqXqUuG_isojJt5LfYFFIiAZe0ucvuLSyoiWsZRcby-tcIUiUx5V_lVhEaU3WCQso9wv3fFY9IA9rCmSAA7E7YhpkqxO2caT3v4psDGi-9psyCUOgaLb4UyAEpPCBk_rMUMzEU4zYmBEA7x8YXwZ8XoSv9Ca5OuJAQRfaeuvWBPSsX7BPWHgESxUBJzBfoCKAAxto5yTBZkUWaWPNPGEbrO3B1EZiv-MjuVX1ycPlNg8MEYnHuEkM5of0tqdmbOEf2C8-4d1kTyVWteimCs-mHoXTProa9eEFvBsMQT5WrnIFsfdKmavy7K8Rgh2NcIEXy1SQVvdqRpxxR9pXmekiD2yty3kfOKRpU7R9hvp0DtJupvsGCJf6JFifFlyiNaNnsekbrQP-WoETRAhSgM1CSrbqdJk6Lf7ilATPymqB3nTqqGubeV9HqORLq4VkaDX8waJJ_a30iNC7_r5KogeIrw-DB7rpNzWLuhSgwNxtDjYFEb1ZTR9LcC2NTcfc6tN2eJXvjRRmRe0NYaboZu0bTPiY6JGSiQllBYG9BXEt63leCu3uqXHk5Uh37cmirC8UlbHLr-s4Rb2Fat5ZLKcvMslZukQhNNnD2uxxOCJhj7jbak
+metaSortKey: -1615632174319
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

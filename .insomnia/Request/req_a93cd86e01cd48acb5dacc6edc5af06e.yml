@@ -1,0 +1,48 @@
+_id: req_a93cd86e01cd48acb5dacc6edc5af06e
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1615644167813
+created: 1615634185534
+url: https://api.posbox.app/inventory/stores/58c9a88a-7978-4d14-bc18-142995bc15ee/OptionSets/49
+name: update option set
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": null,
+      "storeId": null,
+      "name": "string",
+      "displayName": "string",
+      "options": [
+    		{
+          "id": 83,
+          "optionSetId": null,
+          "name": "string 222",
+          "sortingOrder": 1
+        },
+    		{
+          "id": null,
+          "optionSetId": null,
+          "name": "string 444",
+          "sortingOrder": 2
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eecc253a3ad44b208b5452dea5dee308
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjNEQzU0MUE4RDIwMUFENzZCRDMwMTYxRjg1NUMzMzE1REU5Qzk3NURSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IlBjVkJxTklCclhhOU1CWWZoVnd6RmQ2Y2wxMCJ9.eyJuYmYiOjE2MTU2MzY3NzEsImV4cCI6MTYxNTY0MDM3MSwiaXNzIjoiaHR0cHM6Ly9pZC5wb3Nib3guYXBwIiwiY2xpZW50X2lkIjoiYXBwLnBvc2JveC5tYW5hZ2VyIiwic3ViIjoiZThkOWZiNTMtODdjZC00NGMwLTg0ZmUtNTNhYTMxMGQ0NWJhIiwiYXV0aF90aW1lIjoxNjE1NjM2NzY5LCJpZHAiOiJsb2NhbCIsImp0aSI6IjcwRkNGQTE3Q0RDNjdBQkQ3QTJFNkE4NzlBNDFDMkNGIiwiaWF0IjoxNjE1NjM2NzcxLCJzY29wZSI6WyJlbWFpbCIsIm9wZW5pZCIsInBob25lIiwicHJvZmlsZSIsInJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.QA8AACtVQtsOJYkFTzSssYhUUOusaDOy6pz10c96RbgfEL9Nclm9S0gjHYhHISl58lPyF7la-5sJXnwG94UfxuYmgd-XG4yv732fSU_afs3D55cRut3ya1GUDxErMiCTAmpZyyuTI3H6XuntvSAeX_iHGLcvRIC2RJ5n8Na0EacRxZz0a1PFm8JTJzVDrWoOwDyty4jjzq1RQqRP6sEeXbnqOBH6ZJnMh3yOcq2k0ljWAe5Cb45xgDr-50WT4SEQdfiJxh7dbxGSezDxTAsmz8AQGu-1F4rS_IB6_LNYasEczZr2Lh2bnz7sfekpJ1lLeiZIQQLgYHPsmDYN-UnwLDaRm9SGma3nvzlTrYuCY40HQip1nWhye1tKW-3-Ctzqf-V6DFJ8Wg_f0EmPSY2zVN_ja2KCFpSHh0EZvJaUMigNbwBYh5n9q-T-1VrkQW6-czQOYnTw7BN31hi-U4COGBFKwlqv55nXVehZojrFpelewkWHXQmK6WX3wyE7mGKSsRHW34IYVi4A-0vtnnpP1x0OTCwp0ag-wHxyIUio4RGROJuWz9Sciz526Yurn5EZyYNKhMPWz9jHjN2_a93uCZm2Xkvqxo7n4Y5gxjQuk-QGlN5SehpYZByWKcehLRDE4jI8Jo0YntETEy9iQ_AzlR9aOUS6brZur-CjW-7LdLk
+metaSortKey: -1615634185534
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

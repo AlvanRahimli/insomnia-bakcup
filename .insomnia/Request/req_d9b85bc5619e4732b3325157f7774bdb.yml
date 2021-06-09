@@ -1,0 +1,21 @@
+_id: req_d9b85bc5619e4732b3325157f7774bdb
+type: Request
+parentId: fld_54e70c743aff47fea3e3337c2ee7c635
+modified: 1617480915184
+created: 1617480890145
+url: http://localhost:5000/node/queue/new?nodeId=salam&number=13
+name: add element
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617480890145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

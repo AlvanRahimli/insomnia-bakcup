@@ -1,0 +1,33 @@
+_id: req_fb93a03751544d5bb5731ac3da7d67e1
+type: Request
+parentId: fld_dfb74022edb343a28896ba1f0f2b900c
+modified: 1616795641883
+created: 1616795547111
+url: https://localhost:5001/auth/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Email": "alvanrahimli@gmail.com",
+    	"FullName": "ALvan Rahimli",
+    	"PhoneNumber": "+994517000543",
+    	"Password": "01122001alvan",
+    	"ConfirmPassword": "01122001alvan"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_93378ee7357d45589074609fa28c834d
+authentication: {}
+metaSortKey: -1616795547112
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

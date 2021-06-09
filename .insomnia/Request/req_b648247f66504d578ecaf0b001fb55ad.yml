@@ -1,34 +1,30 @@
-_id: req_6d75352d901544108b7e23ac3e6e191d
+_id: req_b648247f66504d578ecaf0b001fb55ad
 type: Request
 parentId: fld_3394f3aae9c643d9ba0939e503223379
-modified: 1617044682992
-created: 1610214928777
-url: https://api.edway.org/supervisor/api/modules/add
-name: add module
+modified: 1617044849073
+created: 1617044653848
+url: http://localhost:5005/api/paths/08d8f28e-54d9-40b0-8ada-48522995ddc5/update
+name: edit path
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"name": "hansisa python dersi",
-    	"desctiption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae pharetra dolor. Suspendisse commodo viverra placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sit amet sapien sit amet ipsum congue molestie. Nunc luctus, lorem sit amet maximus congue.",
-    	"severity": "mandatory",
-    	"orderInPath": 5
+    	"name": "Chess updated",
+    	"description": "i am testing update with teams",
+    	"difficulty": 0,
+    	"accessibility": "Public"
     }
-parameters:
-  - name: ""
-    value: ""
-    description: ""
-    id: pair_b7067c16593344b79c6745a431eb93e7
+parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_2fe7733ef19e4fe2bf83973bb9f2e157
+    id: pair_33b17b51c78c48d0864b7702297bfb08
 authentication:
   type: bearer
   token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjYxMzJCREZGQjVEQjlBQTA4Q0NERDUyRDA4NDVEMUM5IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTcwNDQ1NzAsImV4cCI6MTYxOTYzNjU3MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiY2xpZW50X2lkIjoib3JnLmVkd2F5LndlYmNsaWVudCIsInN1YiI6IjZiYWRlNWY4LTI2Y2QtNDc3NC1hNWE0LThjYTk3Y2M3ZGZjOSIsImF1dGhfdGltZSI6MTYxNzA0NDU2OSwiaWRwIjoibG9jYWwiLCJqdGkiOiJBRTEwNzNFRUE4RjIzMDA1Mjg2REVDNEIyODQ0OTFDNiIsImlhdCI6MTYxNzA0NDU3MCwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJwaG9uZSIsInByb2ZpbGUiLCJyb2xlcyIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.NlE1RIUxp-dqYSFpqEb_fG2Zbqp1SQqfUqrKfrH7gFjHpOVV4F7CnRbvI8mvDh5qvzr2oKG-QZEZRvoVX9-IKxptNkIKsZfJlvNoMwrwTw6JmQ2qeCvwjom562GnxKZz9XOpIC5eE2kjHA1nyzaVRPLe3EWM9PoAE906zpq7oh1IttsuuvYJKKlFK-R9ZGa1kKn-MdH80Q4ny9gd8kkq4kwqd3ySkcxGob5deCVvDcHH7gdQvbrBcH3MUcMqRFFDmveVFRJRVsaF4JE45Tt5RJotpzpunGZGNh85igwYv7SsbG7NiYl2aZpGm_baWX-eICs-XVck2TUz6VeRPALIRQ
-metaSortKey: -1610214928777
+metaSortKey: -1617044653848
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

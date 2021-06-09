@@ -1,7 +1,7 @@
 _id: req_81733794d3a247bc963106673dc50a7d
 type: Request
 parentId: fld_3394f3aae9c643d9ba0939e503223379
-modified: 1613484293698
+modified: 1617044702860
 created: 1610205600062
 url: https://api.edway.org/supervisor/api/paths/add
 name: add path
@@ -9,8 +9,13 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"name": "ilkdir axi beli beli", "description": "aha bu ilkdir test
-    edirem", "difficulty": 0, "accessibility": "Public"}'
+  text: |-
+    {
+    	"name": "ilkdir axi beli beli",
+    	"description": "aha bu ilkdir test edirem",
+    	"difficulty": 0,
+    	"accessibility": "Public"
+    }
 parameters: []
 headers:
   - name: Content-Type

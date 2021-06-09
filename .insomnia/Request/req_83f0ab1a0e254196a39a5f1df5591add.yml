@@ -1,25 +1,26 @@
-_id: req_f446d43bd9de4df598b6d3b93b61c9bc
+_id: req_83f0ab1a0e254196a39a5f1df5591add
 type: Request
-parentId: fld_42702b4d3b6644a29c56881503d260cc
-modified: 1616431031814
-created: 1610909129965
-url: https://merchant-connect-v1.fonibo.com/stores/2/webhooks
-name: "scratch "
+parentId: fld_dfb74022edb343a28896ba1f0f2b900c
+modified: 1616796327670
+created: 1616795656568
+url: https://localhost:5001/auth/login
+name: login user
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"url": "https://api.posbox.app/"
+    	"Email": "alvanrahimli@gmail.com",
+    	"Password": "01122001alvan"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_336bb95936cf4f5b916c18c8f1a520c5
+    id: pair_10df7e026023495ab4e3a0e75d274aba
 authentication: {}
-metaSortKey: -1610909129966
+metaSortKey: -1616795656568
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,9 +1,9 @@
 _id: req_33c5f6a5c7c44d458ac47380167dc6af
 type: Request
 parentId: fld_8da76e75da144a3fa5793e380d49bd24
-modified: 1613852282037
+modified: 1620724940860
 created: 1610192554887
-url: http://id.edway.org/connect/token
+url: https://id.edway.org/connect/token
 name: get token
 description: ""
 method: POST
@@ -27,7 +27,7 @@ body:
       description: ""
       id: pair_6ee4d0971bd4431eb7ee2bfc2ac9a9a4
     - name: password
-      value: 01122001_Alvan
+      value: 01122001alvan
       description: ""
       id: pair_17d6822fefcf4a188638992caa909fc0
 parameters: []

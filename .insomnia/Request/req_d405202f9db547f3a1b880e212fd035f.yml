@@ -1,25 +1,25 @@
-_id: req_f446d43bd9de4df598b6d3b93b61c9bc
+_id: req_d405202f9db547f3a1b880e212fd035f
 type: Request
-parentId: fld_42702b4d3b6644a29c56881503d260cc
-modified: 1616431031814
-created: 1610909129965
-url: https://merchant-connect-v1.fonibo.com/stores/2/webhooks
-name: "scratch "
+parentId: fld_8da76e75da144a3fa5793e380d49bd24
+modified: 1620112721533
+created: 1620112210098
+url: http://localhost.local:5002/create-checkout-session
+name: post test
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"url": "https://api.posbox.app/"
+    	"priceId": "price_1IlVQSIhyWi1tE0K7ZXWgJVW"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_336bb95936cf4f5b916c18c8f1a520c5
+    id: pair_022fcc1068c14087b9f2c528b624173e
 authentication: {}
-metaSortKey: -1610909129966
+metaSortKey: -1620112210098
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

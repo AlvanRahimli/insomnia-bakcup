@@ -1,19 +1,27 @@
-_id: req_197c28a8c5a7414e9f21665bf2295232
+_id: req_df337d73b7d04057b328768d7388db0f
 type: Request
 parentId: fld_ea30190487674905be403742cac5ee2e
-modified: 1621873795407
-created: 1613734410337
-url: http://api.posbox.app/inventory/branches/619b9b23-f10b-4869-b70e-d7d47cf3747c/simpleproducts?offset=0&limit=10
-name: get products
+modified: 1621874798525
+created: 1621874721309
+url: http://api.posbox.app/inventory/branches/619b9b23-f10b-4869-b70e-d7d47cf3747c/simpleproducts/0b12bb1c-2309-4093-a8c9-c6478aa19e56
+name: put is active
 description: ""
-method: GET
-body: {}
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"isActive": false
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3340f0812cec423894100f1a5e6f437d
 authentication:
   type: bearer
   token: eyJhbGciOiJSUzI1NiIsImtpZCI6IjNEQzU0MUE4RDIwMUFENzZCRDMwMTYxRjg1NUMzMzE1REU5Qzk3NURSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IlBjVkJxTklCclhhOU1CWWZoVnd6RmQ2Y2wxMCJ9.eyJuYmYiOjE2MjE4NzM3MTAsImV4cCI6MTYyMTg3NzMxMCwiaXNzIjoiaHR0cHM6Ly9pZC5wb3Nib3guYXBwIiwiY2xpZW50X2lkIjoiYXBwLnBvc2JveC5tYW5hZ2VyIiwic3ViIjoiYzQ3M2RkOWMtMjhjYS00MmM5LWI4ZmQtMGFhMDNkMjNkZjU2IiwiYXV0aF90aW1lIjoxNjIxODczNzEwLCJpZHAiOiJsb2NhbCIsImp0aSI6IjAzOUZGQkU3OTA3Q0RGOEUxRjExRDUzQjJBNzhEQTk4IiwiaWF0IjoxNjIxODczNzEwLCJzY29wZSI6WyJlbWFpbCIsIm9wZW5pZCIsInBob25lIiwicHJvZmlsZSIsInJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.BxH3Oo-HqCP43AZrbJf6w7kgZyEwCZMUZHxUzbc3JcLZT3nQ732J3tl2PrY43jMa-NRsiA6VY6X7Of4oDi63isGEmrR_Qb2nY385KWj6l0ClJFx9j8QK-VVNMIDnNmYixVtGasYuj8H6Vgt4GQz4JUROxxUTFe1jVjuXwWhYYPTSI5agsp-SUysey2Y_PP9R2w-Qb5woBXphCEvtYxLD-wTCJw-Sra2uZKIa3rTgv7-k6z8ArlGm2M-XaV-S--eQchhTjQsBK04mNzmOvv3js9ucKbWCQoLH3A-ydiBml5oRw_Mq9VT-JCaB2HGczu-SiFOvaQ180QxBdfgJa2FPtAUIFKPwlAqMjolDaySehsmidl9IaG4JqhM9QEkBuW9nxIz_-OEKlHKpYNscc0aXz_rOxouCYuhCc3dNSr7LRiQ0qdHflJGxCfKVuqqnfna-Z2EujdEQ0kfLhonEZ_M8A_5mg8d00b4zfbHTZWHQfjbMn-j3hSixUhu6taCsnG1p59cZ3N__3ozu2NVPJCe38GIQrhTLngKHdmXxNPKGcvs7RrrJ_YJBuYZ7lH5WyKbHR1-wxEX_nkEkh9CvRXEvHvBmA1y0NNHK_o9B-PzKUJzciyFhNlmyExQh1WZt1aT69WpgjD9IkEmmx3c0eEZlNgLI3rSvU-iVMDsBk5MiYNU
-metaSortKey: -1615567501725.75
+metaSortKey: -1615599838022.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,81 @@
+_id: req_9f83c5a27fcd4d0aa23bc5e1c504a199
+type: Request
+parentId: wrk_f9c0ac1363ad4657877993a0cc62c16a
+modified: 1616494448965
+created: 1616262418192
+url: ""
+name: json
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "bbf0e82b-af12-4a3c-958b-e0267bbaf49e",
+    	"shortId": "0EINY6",
+    	"status": "ReadyForShopping",
+    	"timestamp": "2021-03-24T05:00:00Z",
+    	"deliveryAddress": "55 Xocalı, Bakı, Azerbaijan 6th floor, Fonibo",
+    	"notes": null,
+    	"payment": {
+    		"subTotal": 12.52,
+    		"total": 14.42,
+    		"tax": 0.0
+    	},
+    	"store": {
+    		"id": 3,
+    		"name": "Rahat Market №14",
+    		"logoUrl": "https://i.imgur.com/EtpEZDt.jpg"
+    	},
+    	"items": [
+    		{
+    			"id": 12566,
+    			"productName": " Morsok Kök/Çiyələk Şirəsi Şüşə qab 300 ml ",
+    			"productSize": "330",
+    			"productUnit": "ml",
+    			"productSku": "75041220.4074",
+    			"price": 1.40,
+    			"quantity": 5.0,
+    			"pickedUp": 0.0
+    		},
+    		{
+    			"id": 12567,
+    			"productName": "Meyvə Şirəsi Multimeyvə Aquşa 200 ml",
+    			"productSize": "200",
+    			"productUnit": "ml",
+    			"productSku": "75080960.2704",
+    			"price": 0.99,
+    			"quantity": 4.0,
+    			"pickedUp": 0.0
+    		},
+    		{
+    			"id": 12568,
+    			"productName": "Cappy Portağal Şirəsi 200 ml",
+    			"productSize": "200",
+    			"productUnit": "ml",
+    			"productSku": "75041228.2204",
+    			"price": 0.39,
+    			"quantity": 4.0,
+    			"pickedUp": 0.0
+    		}
+    	],
+    	"customer": {
+    		"id": "642e19e5-6814-40d1-b94d-29e7e61b6b92",
+    		"fullName": "Misir Jafarov",
+    		"phoneNumber": "+994777125433"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_abc0bb1b4aab4fc6a864a6d36cca2447
+authentication: {}
+metaSortKey: -1616262418193
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

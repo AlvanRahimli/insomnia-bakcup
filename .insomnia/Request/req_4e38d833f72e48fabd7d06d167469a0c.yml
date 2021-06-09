@@ -1,0 +1,42 @@
+_id: req_4e38d833f72e48fabd7d06d167469a0c
+type: Request
+parentId: fld_ea30190487674905be403742cac5ee2e
+modified: 1616502042558
+created: 1616401410611
+url: https://id.fonibo.com/connect/token
+name: get token with refresh token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: client_id
+      value: com.fonibo-apps.posbox-83472838662
+      description: ""
+      id: pair_80f69262ae30497d92c0264266130275
+    - name: client_secret
+      value: jJ8as7_123bJH8HS92nXs
+      description: ""
+      id: pair_6a7322a5d7ac4ff79a49d28f974d4e1b
+    - name: grant_type
+      value: refresh_token
+      description: ""
+      id: pair_455aee996bdf41ebab2d0de2fa00223a
+    - name: refresh_token
+      value: dQdgst6HS1e3akFFnD7kezUEub7uEnx-WmCpFBEnlLc
+      description: ""
+      id: pair_5e4a89717d43424daee593ac83cef9a9
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_aa7b1e10396d484aac6fbe4ef303c70f
+authentication: {}
+metaSortKey: -1616401410611
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

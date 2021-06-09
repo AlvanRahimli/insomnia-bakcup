@@ -1,9 +1,9 @@
 _id: req_d21ac23d5d3b408c9fe0bdb10a455d09
 type: Request
 parentId: fld_ea30190487674905be403742cac5ee2e
-modified: 1614692716478
+modified: 1616665347121
 created: 1611734928371
-url: http://id.posbox.app/connect/token
+url: https://id.posbox.app/connect/token
 name: get token
 description: ""
 method: POST
@@ -23,11 +23,11 @@ body:
       description: ""
       id: pair_0ad32c96be884df390b71ed9b7225791
     - name: username
-      value: TestAdamRCdhF
+      value: alvanuser@gmail.com
       description: ""
       id: pair_8087ad3afed74e8493738870e7401563
     - name: password
-      value: posbox-user123
+      value: alvan12345
       description: ""
       id: pair_53c51e8559fe4100af7b0ae307452056
 parameters: []

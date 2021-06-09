@@ -1,0 +1,21 @@
+_id: req_9e0b7a3729e64acabdef381f2cabb730
+type: Request
+parentId: fld_b31ee83a8e6344aab0ecad1d81756765
+modified: 1618905239135
+created: 1618905201642
+url: https://api.fonibo.com/catalog/stores/3/categories/2000/products
+name: get products
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1618905201642
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

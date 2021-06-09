@@ -1,20 +1,19 @@
-_id: req_524003264b2246afb1f7fb6733d531ab
+_id: req_6c0b8bfe552941fe82e0f47ac7cbff9d
 type: Request
 parentId: fld_3394f3aae9c643d9ba0939e503223379
-modified: 1623224311447
-created: 1610483688460
-url: https://api.edway.org/supervisor/api/paths?offset=0&limit=20
-name: get paths
+modified: 1623224223218
+created: 1623224115205
+url: https://api.edway.org/supervisor/api/lessons/43fc722d-2efe-4c36-8f32-c2504ee9da68/prev-next
+name: prev-next
 description: ""
-method: GET
+method: PUT
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: eyJhbGciOiJSUzI1NiIsImtpZCI6IkZBOTgxNzVDMTIyN0FBQTM5MTE2Q0JCNDQxOThBRDBGIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjMyMjQxMDAsImV4cCI6MTYyNTgxNjEwMCwiaXNzIjoiaHR0cDovL2lkLmVkd2F5Lm9yZyIsImNsaWVudF9pZCI6Im9yZy5lZHdheS53ZWJjbGllbnQiLCJzdWIiOiI1YmYwMDMxOS0zOTFjLTRhNjctYjFmYy0yOTg5MmUwMzJlMzAiLCJhdXRoX3RpbWUiOjE2MjMyMjQxMDAsImlkcCI6ImxvY2FsIiwicm9sZSI6IlN1cGVydmlzb3IiLCJqdGkiOiI3MTdGQTQyOTcyQTlDNjVDQ0ZBNjQwM0QzMkQyM0NDMSIsImlhdCI6MTYyMzIyNDEwMCwic2NvcGUiOlsiZW1haWwiLCJvcGVuaWQiLCJwaG9uZSIsInByb2ZpbGUiLCJyb2xlcyIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.c64iujxp21meYqKcDGNM8LYeDj8q5l925YLgCztBR57tC2WGjL42OQkgm0LoRXI7I27kk-MEZAQXwAFjBnN8M6Vcv18Jk12Ry3pgplS_Q-cRQAY28dDpV0wLTo1Ffe8J8Ae6wlaSYxRos0UQ-B05pQwxzdaERppqVj5vhPmnS3AOz5WxFLarqXOGCm0MxLO8GmPRW1Eg_UjtKDxBuP3Dxq_7m_l-aHxIAbd2ZNHIjVvSB1AIumGnsHem8Mh3R_nq8BLjTsnMy9MH3-6Kn8hkN_rMDZFrIFXAJrA-_p35Qmm3pylFd90sptu4gwg5s7IEmV4VOc06ETXwjCFhSXaCTA
-  disabled: false
-metaSortKey: -1610210247199.5
+metaSortKey: -1623224115205
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
